@@ -1,8 +1,4 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
@@ -16,10 +12,14 @@
   --ifm-color-primary-lightest: #c59af7;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(17, 17, 27, 0.08);
+  --ifm-font-family-monospace: "JetBrains Mono", monospace;
+
+  --ifm-background-color: #dce0e8;
+  --ifm-navbar-background-color: #e6e9ef;
 }
 
-/* Catppuccin Mocha (dark theme) */
 [data-theme='dark'] {
+  /* Catppuccin Mocha (dark theme) */
   --ifm-color-primary: #cba6f7;
   --ifm-color-primary-dark: #b88ef3;
   --ifm-color-primary-darker: #a875f0;
@@ -28,4 +28,11 @@
   --ifm-color-primary-lighter: #dcc5fa;
   --ifm-color-primary-lightest: #e9ddfd;
   --docusaurus-highlighted-code-line-bg: rgba(203, 166, 247, 0.15);
+
+  --ifm-background-color: #11111b;
+  --ifm-navbar-background-color: #181825;
+}
+
+.footer {
+  --ifm-footer-background-color: #1e1e2e;
 }
