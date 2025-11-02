@@ -1,0 +1,11 @@
+linux:
+  label: Linux
+  permalink: /linux
+
+code:
+  label: Code
+  permalink: /code
+
+personal:
+  label: Personal
+  permalink: /personal
